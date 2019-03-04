@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VisualFramework_Example' do
+  pod 'VisualFramework', :path => '../'
+
+  target 'VisualFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
