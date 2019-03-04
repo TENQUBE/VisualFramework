@@ -1,0 +1,6 @@
+framework module VisualFramework {
+  umbrella header "VisualFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

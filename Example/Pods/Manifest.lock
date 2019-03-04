@@ -1,0 +1,16 @@
+PODS:
+  - VisualFramework (0.1.1)
+
+DEPENDENCIES:
+  - VisualFramework (from `../`)
+
+EXTERNAL SOURCES:
+  VisualFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VisualFramework: 1ab98ed3283bafb2ff796dafe4c3c2443c3995c0
+
+PODFILE CHECKSUM: 5d7d36a85b70d14fd4f10dc1488b7fec303aa291
+
+COCOAPODS: 1.5.3
