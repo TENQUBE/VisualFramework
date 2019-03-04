@@ -11,13 +11,18 @@ import VisualFramework
 
 class ViewController: UIViewController {
 
+    let apiKey = ""
+    let layer = "dev"
+    let uid = "1234"
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        VisualService.startVisual(caller: self)
+        
+        VisualService(apiKey: apiKey, layer: layer, uid: uid).startVisual(caller: self)
     }
 
 
